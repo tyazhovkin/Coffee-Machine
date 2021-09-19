@@ -29,10 +29,6 @@ run {
     standardInput = System.in
 }
 
-test {
-    useJUnitPlatform()
-}
-
 compileJava.options.encoding = 'utf-8'
 tasks.withType(JavaCompile) {
     options.encoding = 'utf-8'
